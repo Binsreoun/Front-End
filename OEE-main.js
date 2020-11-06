@@ -21,9 +21,10 @@ var gaugeOptions = {
         background: {
             backgroundColor:
                 Highcharts.defaultOptions.legend.backgroundColor || '#EEE',
-            innerRadius: '60%',
-            outerRadius: '100%',
-            shape: 'arc'
+                innerRadius: '60%',
+                outerRadius: '100%',
+                shape: 'arc'
+            
         }
     },
 

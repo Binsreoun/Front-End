@@ -14,11 +14,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="Item-main.js" defer></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="https://code.highcharts.com/modules/series-label.js"></script>
-    <script src="https://code.highcharts.com/modules/exporting.js"></script>
-    <script src="https://code.highcharts.com/modules/export-data.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
   </head>
   <body>
     <!-- Nav container -->
@@ -45,13 +40,43 @@
       <!-- Toggle button -->
       <a href="#" class="navbar__toggleBtn">
         <i class="fas fa-bars"></i>
-      </a>
+      </a> 
     </nav>
-    <figure class="highcharts-figure">
-        <div id="container"></div>
-        <p class="highcharts-description">
-            
-        </p>
-    </figure>
+    <table id="datatable">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Jane</th>
+          <th>John</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Apples</th>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th>Pears</th>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <th>Plums</th>
+          <td>5</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <th>Bananas</th> 
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <th>Oranges</th>
+          <td>2</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
