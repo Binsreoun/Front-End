@@ -53,6 +53,9 @@ var gaugeOptions = {
     labels: {
       y: 16,
     },
+    credits: {
+      enabled: false,
+    },
   },
 
   plotOptions: {

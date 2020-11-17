@@ -322,6 +322,9 @@ Highcharts.chart("container", {
       },
     ],
   },
+  credits: {
+    enabled: false,
+  },
 });
 Highcharts.chart("container2", {
   title: {
@@ -638,6 +641,9 @@ Highcharts.chart("container2", {
         },
       },
     ],
+  },
+  credits: {
+    enabled: false,
   },
 });
 Highcharts.chart("container3", {
@@ -956,6 +962,9 @@ Highcharts.chart("container3", {
       },
     ],
   },
+  credits: {
+    enabled: false,
+  },
 });
 
 Highcharts.chart("container4", {
@@ -1012,4 +1021,7 @@ Highcharts.chart("container4", {
       data: [755, 222, 151, 86, 72, 951],
     },
   ],
+  credits: {
+    enabled: false,
+  },
 });

@@ -63,6 +63,9 @@ Highcharts.chart("container", {
       },
     ],
   },
+  credits: {
+    enabled: false,
+  },
 
   tooltip: {
     headerFormat: "<b>{series.name}</b><br/>",

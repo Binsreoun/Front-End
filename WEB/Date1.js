@@ -34,4 +34,7 @@ Highcharts.chart("container1", {
       data: [5, 4, 3, 2, 5, 6],
     },
   ],
+  credits: {
+    enabled: false,
+  },
 });
