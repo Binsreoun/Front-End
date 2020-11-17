@@ -8,16 +8,16 @@ toggleBtn.addEventListener("click", () => {
 });
 Highcharts.chart("container", {
   title: {
-    text: "Height vs Weight",
+    text: "Quality vs Length",
   },
   subtitle: {
-    text: "Polygon series in Highcharts",
+    text: "",
   },
   xAxis: {
     gridLineWidth: 1,
     title: {
       enabled: true,
-      text: "Height (cm)",
+      text: "Length (cm)",
     },
     startOnTick: true,
     endOnTick: true,
@@ -25,7 +25,7 @@ Highcharts.chart("container", {
   },
   yAxis: {
     title: {
-      text: "Weight (kg)",
+      text: "Electric . Temperature",
     },
   },
   legend: {
@@ -37,7 +37,7 @@ Highcharts.chart("container", {
     {
       name: "Observations",
       type: "scatter",
-      color: Highcharts.getOptions().colors[1],
+      color: "red",
       data: [
         [161.2, 51.6],
         [167.5, 59.0],
@@ -304,7 +304,7 @@ Highcharts.chart("container", {
   ],
   tooltip: {
     headerFormat: "<b>{series.name}</b><br>",
-    pointFormat: "{point.x} cm, {point.y} kg",
+    pointFormat: "{point.x} , {point.y} ",
   },
   responsive: {
     rules: [
@@ -325,16 +325,16 @@ Highcharts.chart("container", {
 });
 Highcharts.chart("container2", {
   title: {
-    text: "Height vs Weight",
+    text: "Quality vs Width",
   },
   subtitle: {
-    text: "Polygon series in Highcharts",
+    text: "",
   },
   xAxis: {
     gridLineWidth: 1,
     title: {
       enabled: true,
-      text: "Height (cm)",
+      text: "Width (cm)",
     },
     startOnTick: true,
     endOnTick: true,
@@ -342,7 +342,7 @@ Highcharts.chart("container2", {
   },
   yAxis: {
     title: {
-      text: "Weight (kg)",
+      text: "Electric . Temperature",
     },
   },
   legend: {
@@ -354,7 +354,7 @@ Highcharts.chart("container2", {
     {
       name: "Observations",
       type: "scatter",
-      color: Highcharts.getOptions().colors[1],
+      color: "blue",
       data: [
         [161.2, 51.6],
         [167.5, 59.0],
@@ -621,7 +621,7 @@ Highcharts.chart("container2", {
   ],
   tooltip: {
     headerFormat: "<b>{series.name}</b><br>",
-    pointFormat: "{point.x} cm, {point.y} kg",
+    pointFormat: "{point.x} , {point.y} ",
   },
   responsive: {
     rules: [
@@ -642,10 +642,10 @@ Highcharts.chart("container2", {
 });
 Highcharts.chart("container3", {
   title: {
-    text: "Height vs Weight",
+    text: "Quality vs Heghit",
   },
   subtitle: {
-    text: "Polygon series in Highcharts",
+    text: "",
   },
   xAxis: {
     gridLineWidth: 1,
@@ -659,7 +659,7 @@ Highcharts.chart("container3", {
   },
   yAxis: {
     title: {
-      text: "Weight (kg)",
+      text: "Electric . Temperature",
     },
   },
   legend: {
@@ -671,7 +671,7 @@ Highcharts.chart("container3", {
     {
       name: "Observations",
       type: "scatter",
-      color: Highcharts.getOptions().colors[1],
+      color: "yellow",
       data: [
         [161.2, 51.6],
         [167.5, 59.0],
@@ -938,7 +938,7 @@ Highcharts.chart("container3", {
   ],
   tooltip: {
     headerFormat: "<b>{series.name}</b><br>",
-    pointFormat: "{point.x} cm, {point.y} kg",
+    pointFormat: "{point.x} , {point.y} ",
   },
   responsive: {
     rules: [
@@ -964,20 +964,13 @@ Highcharts.chart("container4", {
     type: "column",
   },
   title: {
-    text: "Restaurants Complaints",
+    text: "Pareto",
   },
   tooltip: {
     shared: true,
   },
   xAxis: {
-    categories: [
-      "Overpriced",
-      "Small portions",
-      "Wait time",
-      "Food is tasteless",
-      "No atmosphere",
-      "Not clean",
-    ],
+    categories: ["OP 10", "OP 20", "OP 30", "OP 40", "OP 50", "OP 60"],
     crosshair: true,
   },
   yAxis: [
@@ -1016,7 +1009,7 @@ Highcharts.chart("container4", {
       name: "Complaints",
       type: "column",
       zIndex: 2,
-      data: [755, 222, 151, 86, 72, 51],
+      data: [755, 222, 151, 86, 72, 951],
     },
   ],
 });
