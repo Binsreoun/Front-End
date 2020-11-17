@@ -36,14 +36,14 @@ Highcharts.chart("container", {
     {
       className: "highcharts-color-0",
       title: {
-        text: "Primary axis",
+        text: "Electric",
       },
     },
     {
       className: "highcharts-color-1",
       opposite: true,
       title: {
-        text: "Secondary axis",
+        text: "Temperature",
       },
     },
   ],
@@ -67,84 +67,28 @@ Highcharts.chart("container", {
       marker: {
         symbol: "square",
       },
-      data: [
-        4.0,
-        9.9,
-        42.5,
-        17.5,
-        3.2,
-        21.5,
-        20.2,
-        {
-          y: 26.5,
-          marker: {
-            symbol: "square",
-          },
-        },
-      ],
+      data: [94.0, 109.9, 92.5, 107.5, 93.2, 101.5, 90.2, 100],
     },
     {
       name: "op20",
       marker: {
         symbol: "square",
       },
-      data: [
-        7.0,
-        11.9,
-        21.5,
-        31.5,
-        41.2,
-        51.5,
-        60.2,
-        {
-          y: 26.5,
-          marker: {
-            symbol: "square",
-          },
-        },
-      ],
+      data: [107.0, 101.9, 101.5, 91.5, 91.2, 91.5, 100.2, 99.0],
     },
     {
       name: "op30",
       marker: {
         symbol: "square",
       },
-      data: [
-        3.0,
-        9.9,
-        9.5,
-        9.5,
-        9.2,
-        9.5,
-        10.2,
-        {
-          y: 26.5,
-          marker: {
-            symbol: "square",
-          },
-        },
-      ],
+      data: [93.0, 99.9, 99.5, 99.5, 99.2, 99.5, 100.2, 100],
     },
     {
       name: "op40",
       marker: {
         symbol: "diamond",
       },
-      data: [
-        {
-          y: 3.9,
-          marker: {
-            symbol: "diamond",
-          },
-        },
-        4.2,
-        5.7,
-        8.5,
-        11.9,
-        15.2,
-        17.0,
-        16.6,
-      ],
+      data: [500, 504.2, 505.7, 498.5, 491.9, 495.2, 507.0, 506.6],
       yAxis: 1,
     },
     {
@@ -152,21 +96,7 @@ Highcharts.chart("container", {
       marker: {
         symbol: "diamond",
       },
-      data: [
-        {
-          y: 3.9,
-          marker: {
-            symbol: "diamond",
-          },
-        },
-        14.2,
-        15.7,
-        18.5,
-        12.9,
-        13.2,
-        11.0,
-        16.6,
-      ],
+      data: [501, 554.2, 585.7, 508.5, 502.9, 493.2, 481.0, 496.6],
       yAxis: 1,
     },
   ],

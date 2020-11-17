@@ -6,6 +6,7 @@ toggleBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
   icons.classList.toggle("active");
 });
+
 function exportTableToCsv(tableId, filename) {
   if (filename == null || typeof filename == undefined) filename = tableId;
   filename += ".csv";

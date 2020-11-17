@@ -13,7 +13,7 @@
 }
 
 body {
-  width: 1535px;
+  width: 1515px;
   height: 705px;
   margin: 0;
   font-family: "Source Sans Pro";
@@ -38,7 +38,8 @@ a {
 
 /* Logo with text */
 .navbar__logo {
-  font-size: 24px;
+  font-size: 20px;
+  align-items: center;
   color: var(--text-color);
 }
 
@@ -131,18 +132,37 @@ a {
 #BB {
   width: 800px;
   height: 334px;
-  color: green;
+  color: black;
   float: left;
+  font-size: 7px;
 }
 #CC {
-  width: 800px;
-  height: 333px;
-  color: tomato;
+  width: 780px;
+  height: 353px;
+  color: black;
   float: left;
+  line-height: 8px;
 }
 
 .mySlides {
   display: none;
   width: 770px;
   height: 667px;
+}
+.Logo {
+  width: 70px;
+  height: 60px;
+}
+.ZZZZ {
+  width: 650px;
+  height: 500px;
+}
+.ww {
+  color: black;
+}
+#git {
+  width: 390px;
+  font-size: 10px;
+  float: right;
+  right: 70%;
 }
