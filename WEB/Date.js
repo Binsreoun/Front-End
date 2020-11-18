@@ -16,22 +16,7 @@ Highcharts.chart("container", {
   subtitle: {
     text: "",
   },
-  xAxis: {
-    categories: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ],
-  },
+
   yAxis: [
     {
       className: "highcharts-color-0",
