@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Predict.css" />
+    <script src="Predict.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Predict</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+  <header> 
+    <!-- Nav container -->
+    <nav class="navbar">
+      <!-- Logo with text -->
+      <div class="navbar__logo">
+        <a id="name" href="Home.html" >
+        <img class="Logo" src="Logo1.png">
+        </a> 
+      </div>
+      <!-- Menu -->
+      <ul class="navbar__menu">
+        <li><a href="Monitoring.html">MONITORING</a></li>
+        <li><a href="Machine.html">MACHINE</a></li>
+        <li><a href="Search.html">SEARCH</a></li>
+        <li><a href="Analysis.html">ANALYSIS</a></li>
+        <li><a href="Predict.html">PREDICT</a></li> 
+      </ul>
+      <!-- Icons -->
+      <ul class="navbar__Logout">
+        <li><a href="Login.html">Log Out</a></li>
+      </ul>
+      <!-- Toggle button -->
+    <a href="#" class="navbar__toggleBtn">
+    <i class="fas fa-bars"></i>
+    </a>
+  </nav>
+</header>
+<main>
+  <div id="AA">
+    <p id = "Siz">&nbsp;&nbsp;&nbsp;실시간 분석 데이터</p>
+  <table id="example-table1" border="1">
+    <thead>
+        <tr>
+            <th>Productkey</th>
+            <th>BY L</th>
+            <th>BY W</th>
+            <th>BY H</th>
+            <th>WF L</th>
+            <th>WF W</th>
+            <th>WF H</th>
+            <th>E 10</th>
+            <th>OP10L</th>
+            <th>OP10W</th>
+            <th>OP10H</th>
+            <th>P1 L</th>
+            <th>P1 W</th>
+            <th>P1 H</th>
+            <th>El 20</th>
+            <th>OP20L</th>
+            <th>OP20W</th>
+            <th>OP20H</th>
+            <th>P2 L</th>
+            <th>P2 W</th>
+            <th>P2 H</th>
+            <th>El 30</th>
+            <th>OP30L</th>
+            <th>OP30W</th>
+            <th>OP30H</th>
+            <th>OK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>0000000000000000000000000000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+        </tr>
+    </tbody>
+</table>
+  </div>
+  <div id="BB">
+    <p id = "Siz">&nbsp;&nbsp;&nbsp; 날짜별 분석 데이터</p>
+    <p id="Search"><input type="date"><input type="date">
+      <input type="submit" value="검색"><button type="button" onclick="exportTableToCsv('example-table', 'Export example')">
+      다운
+  </button></p>
+  <table id="example-table" border="1">
+    <br>
+    <br>
+    <thead>
+        <tr>
+          <th>Productkey</th>
+          <th>BY L</th>
+          <th>BY W</th>
+          <th>BY H</th>
+          <th>WF L</th>
+          <th>WF W</th>
+          <th>WF H</th>
+          <th>E 10</th>
+          <th>OP10L</th>
+          <th>OP10W</th>
+          <th>OP10H</th>
+          <th>P1 L</th>
+          <th>P1 W</th>
+          <th>P1 H</th>
+          <th>El 20</th>
+          <th>OP20L</th>
+          <th>OP20W</th>
+          <th>OP20H</th>
+          <th>P2 L</th>
+          <th>P2 W</th>
+          <th>P2 H</th>
+          <th>El 30</th>
+          <th>OP30L</th>
+          <th>OP30W</th>
+          <th>OP30H</th>
+          <th>OK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>0000000000000000000000000000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+ <!-- <div id="CC">
+    <box>
+      3
+    </box>
+  </div>-->
+</main>
+</body>
+</html>
