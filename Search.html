@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
-    <title>SEARCH</title>
+    <title>Search</title>
     <script
       src="https://kit.fontawesome.com/2d323a629b.js"
       crossorigin="anonymous"
@@ -31,6 +31,7 @@
       <ul class="navbar__menu">
         <li><a href="Monitoring.html">MONITORING</a></li>
         <li><a href="Machine.html">MACHINE</a></li>
+        <li><a href="Quality.html">QUALITY</a></li>
         <li><a href="Search.html">SEARCH</a></li>
         <li><a href="Analysis.html">ANALYSIS</a></li>
         <li><a href="Predict.html">PREDICT</a></li> 
@@ -46,221 +47,92 @@
   </nav>
 </header>
 <main>
-  <div id="AA"> 
-    <p id="Search"><input type="date"><input type="date">
-      <input type="submit" value="검색">
-  </button></p>
-</div>
-  <div id="BB">
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="exporting.js"></script>
-    <script src="export-data.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    
-    <figure class="highcharts-figure">
-      <div id="container"></div>
-    </figure>
-</div>
-<div id="CC">
-  <div id="table"style=" width:100%; overflow:auto" >
-  <table id="example-table" >
+    <p id = "Siz">&nbsp;&nbsp;&nbsp; 제품 검색</p>
+    <p id="Search"><input type="text">
+      <input type="submit" value="검색"></p>
+  <div id="AA" style=" width:100%; overflow:auto">
+  <table id="example-table" border="1">
     <thead>
         <tr>
-          <th>Product Key</th>
-          <th>TimeStamp</th>
-          <th>Body L</th>
-          <th>Body W</th>
-          <th>Body H</th>
-          <th>WavyFin L</th>
-          <th>WavyFin W</th>
-          <th>WavyFin H</th>
-          <th>Electronic 10</th>
-          <th>OP10 Ptime</th>
-          <th>OP10 L</th>
-          <th>OP10 W</th>
-          <th>OP10 H</th>
-          <th>Pipe1 L</th>
-          <th>Pipe1 W</th>
-          <th>Pipe1 H</th>
-          <th>Electronic 20</th>
-          <th>OP20 Ptime</th>
-          <th>OP20L</th>
-          <th>OP20W</th>
-          <th>OP20H</th>
-          <th>Pipe2 L</th>
-          <th>Pipe2 W</th>
-          <th>Pipe2 H</th>
-          <th>Electronic 30</th>
-          <th>OP30 Ptime</th>
-          <th>OP30L</th>
-          <th>OP30W</th>
-          <th>OP30H</th>
-          <th>Flange1 L</th>
-          <th>Flange1 W</th>
-          <th>Flange1 H</th>
-          <th>Electronic 40</th>
-          <th>OP40 Ptime</th>
-          <th>OP40L</th>
-          <th>OP40W</th>
-          <th>OP30H</th>
-          <th>Flange2 L</th>
-          <th>Flange2 W</th>
-          <th>Flange2 H</th>
-          <th>Electronic 50</th>
-          <th>OP50 Ptime</th>
-          <th>OP50L</th>
-          <th>OP50W</th>
-          <th>OP50H</th>
+            <th>Product key</th>
+            <th>제품명</th>
+            <th>Body L</th>
+            <th>Body W</th>
+            <th>Body H</th>
+            <th>WavyFin L</th>
+            <th>WavyFin W</th>
+            <th>WavyFin H</th>
+            <th>Electric 10</th>
+            <th>OP10 L</th>
+            <th>OP10 W</th>
+            <th>OP10 H</th>
+            <th>Pipe1 L</th>
+            <th>Pipe1 W</th>
+            <th>Pipe1 H</th>
+            <th>Electric 20</th>
+            <th>OP20 L</th>
+            <th>OP20 W</th>
+            <th>OP20 H</th>
+            <th>Pipe2 L</th>
+            <th>Pipe2 W</th>
+            <th>Pipe2 H</th>
+            <th>Electric 30</th>
+            <th>OP30 L</th>
+            <th>OP30 W</th>
+            <th>OP30 H</th>
+            <th>Flange1 L</th>
+            <th>Flange1 W</th>
+            <th>Flange1 H</th>
+            <th>Temperature 40</th>
+            <th>OP40 L</th>
+            <th>OP40 W</th>
+            <th>OP40 H</th>
+            <th>Flange2 L</th>
+            <th>Flange2 W</th>
+            <th>Flange2 H</th>
+            <th>Temperature 50</th>
+            <th>OP50 L</th>
+            <th>OP50 W</th>
+            <th>OP50 H</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>00000000000000000000000000000000</td>
-            <td>000000</td>
-            <td>000000</td>
-            <td>000000</td>
-            <td>000000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
-            <td>00000</td>
+          <td>0000000000000000000000000000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>0000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
+          <td>000000</td>
         </tr>
     </tbody>
-    <tbody>
-      <tr>
-          <td>00000000000000000000000000000000</td>
-          <td>000000</td>
-          <td>000000</td>
-          <td>000000</td>
-          <td>000000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-          <td>00000</td>
-      </tr>
-  </tbody>
-  <tbody>
-    <tr>
-        <td>00000000000000000000000000000000</td>
-        <td>000000</td>
-        <td>000000</td>
-        <td>000000</td>
-        <td>000000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-        <td>00000</td>
-    </tr>
-</tbody>
-<tbody>
-  <tr>
-      <td>00000000000000000000000000000000</td>
-      <td>000000</td>
-      <td>000000</td>
-      <td>000000</td>
-      <td>000000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-      <td>00000</td>
-  </tr>
-</tbody>
 </table>
-  </div>
 </div>
+ <!-- <div id="CC">
+    <box>
+      3
+    </box>
+  </div>-->
 </main>
 </body>
 </html>
